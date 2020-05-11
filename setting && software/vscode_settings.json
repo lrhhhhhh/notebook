@@ -1,0 +1,17 @@
+{
+    "editor.fontFamily": "ubuntu mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutPut": false,
+
+
+    // 设置默认运行语言为python
+    "code-runner.defaultLanguage": "python",
+
+    // 支持选中代码右键运行，适用于脚本语言，配合code-runner.defaultLanguage使用
+    // 在linux下最好修改python的默认版本为python3, 否则运行的代码中有中文时会报错
+    "code-runner.ignoreSelection": false
+}
